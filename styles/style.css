@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    width:500px;
+    flex:1;
+    flex-wrap: wrap;
+}
+.square{
+    width:30px;
+    height: 30px;
+    border:1px solid black;
+}
+.square:hover{
+    background-color: blue;
+}
