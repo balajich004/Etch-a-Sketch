@@ -55,7 +55,7 @@ body{
 .left-part{
     display: flex;
     flex-direction: column;
-    height: 250px;
+    height: 400px;
     justify-content: space-between;
     padding: 60px;
     gap:10px;
@@ -122,18 +122,25 @@ a{
     margin-left: 20px;
     border:none;
     padding: none;
+    align-self: center;
+    cursor: pointer;
 }
 .choose{
     border:none;
     background-color: white;
     padding:8px;
     border-radius: 6px;
+    cursor: pointer;
 }
 .clear{
     border:none;
     background-color: white;
     padding:8px;
     border-radius: 6px;
+    cursor: pointer;
+}
+.choose,.clear{
+    font-weight: bold;
 }
 .footer {
     text-align: center;
