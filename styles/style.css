@@ -1,21 +1,22 @@
 body{
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
+    background-color: black;
 }
 .main{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 800px;
+    height: 100%;
     margin: 0;
     background-color: black;
     color: white;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     gap:160px;
+    margin-top: 50px;
+    margin-bottom: 200px;
 }
 .container{
     display:flex;
@@ -29,7 +30,6 @@ body{
     border: 1px solid #ddd;
     box-sizing: border-box;
     cursor: url('../images/paintbrush-cursor-img.png'),auto;
-    /* opacity: 0.1; */
 }
 .popup{
     display: none;
