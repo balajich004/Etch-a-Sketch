@@ -1,4 +1,4 @@
-
+const clear=document.querySelector(".clear");
 const container=document.querySelector(".container");
 const customcolor=document.querySelector("#custom-color");
 const choose=document.querySelector(".choose");
@@ -22,8 +22,10 @@ function creategrid(size){
 }
 document.addEventListener("DOMContentLoaded",()=>{
     creategrid(16);
-   
 });
+clear.addEventListener("click",()=>{
+    creategrid(16);
+})
 
 
 
