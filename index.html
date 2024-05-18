@@ -7,20 +7,27 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
+    <div class="left-part">
+        <div class="left-title">
     <div class="title">Etch a sketch</div>
+        </div>
     <button class="grid-size">Adjust your grid size</button>
     <div class="custom-colors">
         <input type="color" id="custom-color" value="white">
         <button class="choose">Choose color</button>
     </div>
+    </div>
     <div class="popup">
         <div class="inner-popup">
-            <label for="grid-size">Enter your grid size from 1-100:</label>
-            <button class="close-popup">Close</button>
+            <div class="popup-header">
+            <label for="grid-size" style="color: black;">Enter your grid size from 1-100:</label>
+            <button class="close-popup">X</button>
+        </div>
             <input type="number" value="16" id="grid-size-input">
             <button class="apply-grid-size">Apply</button>
         </div>
     </div>
+
     <div class="container"></div>
     <script src="./scripts/script.js"></script>
     <script src="./scripts/popup.js"></script>

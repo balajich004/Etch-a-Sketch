@@ -17,7 +17,7 @@ function creategrid(size){
             const color=customcolor.value;
             square.addEventListener("mouseover",()=>{square.style.backgroundColor=`${color}`});
             // square.style.backgroundColor=`${color}`;
-        })
+        });
     }
 }
 document.addEventListener("DOMContentLoaded",()=>{
