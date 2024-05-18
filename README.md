@@ -25,4 +25,4 @@ To checkout my other projects please navigate to my profile through above link
 
 ## Note
 
-This is a static web page ideally made for screen's of size over 12 inches and above it is not responsive for smaller screens and it is just a beginner level project 😉.
+This is a dynamic web page ideally made for screen's of size over 12 inches and above it is not responsive for smaller screens and it is just a beginner level project 😉.
