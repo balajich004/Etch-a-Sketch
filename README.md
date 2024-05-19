@@ -1,11 +1,11 @@
 
 # Project Title
 
-Etch a Sckecth 
+Etch a Scketch 
 
 ## About
 
-This is a project built to understand and showcase my Javascript skills. This is a simple dynamic project about etch a sketch a simple game that we have played one or the other time. Some might even be familiar with the word magic slate too, It is the same.In this project I have implemented a lot of events through js and even some new cool css feauters. Hope you enjoy it! 
+This is a project built to understand and showcase my Javascript skills. This is a simple dynamic project about etch a sketch a simple game that we have played one or the other time. Some might even be familiar with the word "magic slate" too, It is the same.In this project I have implemented a lot of events through js and even some new cool css feauters. Hope you enjoy it! 
 
 ## Tech Stack
 
